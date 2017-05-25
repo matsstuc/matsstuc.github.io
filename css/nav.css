@@ -4,22 +4,15 @@ body, html {
     height: 100%;
 }
 
-/* The hero image */
 .hero-image {
-    /* The image used */
     background-image: url("/Users/Trix/Desktop/Studies/webdesign2/matsstuc.github.io/assets/images/hero.jpg");
-
-    /* Set a specific height */
     height: 100%;
-
-    /* Position and center the image to scale nicely on all screens */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-/* Place text in the middle of the image */
 .hero-text {
     text-align: center;
     position: absolute;
@@ -31,7 +24,6 @@ body, html {
     color: white;
 }
 
-/* Navigation */
 #main-navigation-wrapper * {
     box-sizing: border-box;
 }
@@ -70,11 +62,10 @@ body, html {
 #main-navigation > ul > li.active > a
 {
     color:white;
-    transition:all 360ms ease-in 0s;
+    transition:all 400ms ease-in 0s;
     background:#5FAB03;
 }
 #main-navigation > ul > li.hasSubMenu > a::before {
-    content: '￬';
     position: absolute;
     top: 50%;
     right: 15px;
