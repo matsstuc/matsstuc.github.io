@@ -31,6 +31,11 @@ body, html {
 #main-navigation-wrapper{
     background:white;
 }
+
+#main-navigation-wrapper-2{
+        background: #c32e2e;
+    height: 53px;
+}
 #main-navigation {
     display:block;
     font-family: 'Oswald', sans-serif;
@@ -120,3 +125,8 @@ body, html {
     transition:all 360ms ease-in 0s;
 }
 
+
+
+.image-nav {
+    margin-left: 15px;
+}

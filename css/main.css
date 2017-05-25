@@ -35,6 +35,7 @@ body {
      width: 900px;
      margin: auto;
      margin-top: 150px;
+         min-height: 300px;
  }
 
  .famenu {
@@ -58,13 +59,62 @@ body {
     font-size: 16px;
     font-family: 'Oswald';
 }
+.wrapper2 {
+  background-color: #c3c3c3;
+      width: 100%;
+    background-color: #c3c3c3;
+    float: left;
+    padding-bottom: 25px;
+}
 
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.home-left {
+  width: 60%;
+  float: left;
+}
+
+.home-right {
+  width: 40%;
+  float: left;
+}
+
+footer {
   padding: 1rem;
+  min-height: 200px;
+  float: left;
+  width: 100%;
   background-color: darkgrey;
   text-align: center;
+  background: black;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio-container {
+width: 900px;
+margin: 0 auto;
+min-height: 200px;
+background: white;
+
+}
+.portfolio-items {
+  display: flex;
+
+  min-height: 100vh;
+   flex-wrap: wrap;
+
+}
+
+.portfolio-item {
+
+  flex-basis: calc(25% - 30px);
+height: 200px;
+
+background: green;
+margin: 15px;
+}
+
+footer {
+  min-height: 200px;
+  background: black;
 }
