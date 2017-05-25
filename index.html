@@ -3,23 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <title>Pigment Design Agency</title>
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="styles/helpers.css">
+        <link rel="stylesheet" href="styles/global.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Hello Human</h2>
-    <div class="grid__wrapper">
-        <div class="grid__container">
-            <div class="grid__row">
-                <div class="grid__column-12">
-                    <header>
-                        <h1>Graphic Design Festival - Breda</h1>
-                        <h2>25 september t/m 25 oktober 2015</h2>
-                    </header>
-                </div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Design that adapts to you.</h1>
+    <button class="button">Contacteer ons</button>
+    </div>
+    <div id="main-navigation-wrapper">
+        <div class="container">
+            <div class="row">
+                <nav id="main-navigation">
+                    <ul class="clearfix">
+                        <li>
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="hasSubMenu">
+                            <a href="diensten.html">Diensten</a>
+                            <ul>
+                                <li><a href="graphics.html">Graphics</a></li>
+                                <li><a href="webdevelopment.html">Webdevelopment</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" title="Meer over onze agency">Over ons</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Hoe neemt u contact met ons op?">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </div><!-- /End Header -->
+    </div>
+</div>
+  </div>
+
+  <div class="footer">This footer will always be positioned at the bottom of the page, but <strong>not fixed</strong>.</div>
+
 </body>
 </html>

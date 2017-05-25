@@ -1,2 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+	font-family: 'Patua One';
+    font-size: 16px;
+    line-height: 1.4;
+	color: black;
+	font-weight:200;
+}
+
+.button {
+    background-color: #5FAB03; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Oswald';
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: darkgrey;
+  text-align: center;
+}
