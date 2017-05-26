@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Patua+One');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 h2 {
     font-family: 'Lobster';
@@ -32,6 +33,16 @@ body {
     line-height: 200%;
     font-family: 'Calibri';
     font-weight: thin;
+}
+
+.footerlogo {
+    position: absolute;
+    float:left;
+    margin-left: 900px;
+}
+
+.disclaimer {
+    font-family: 'Open Sans Condensed';
 }
 .logo {
     position: absolute;
@@ -158,30 +169,22 @@ footer {
 /* PORTFOLIO */
 
 .portfolio-container {
-width: 900px;
-margin: 0 auto;
-min-height: 200px;
-background: white;
+    width: 900px;
+    margin: 0 auto;
+    min-height: 200px;
+    background: white;
 
 }
 .portfolio-items {
-  display: flex;
-
-  min-height: 100vh;
-   flex-wrap: wrap;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
 
 }
 
 .portfolio-item {
-
-  flex-basis: calc(25% - 30px);
-height: 200px;
-
-background: green;
-margin: 15px;
-}
-
-footer {
-  min-height: 200px;
-  background: black;
+    flex-basis: calc(25% - 30px);
+    height: 200px;
+    background: green;
+    margin: 15px;
 }
