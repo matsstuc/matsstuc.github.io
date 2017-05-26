@@ -9,3 +9,11 @@
     color: white;
 }
 
+.team {
+    position: absolute;
+    margin-left: 600px;
+}
+
+.aboutekst {
+    width:60%;
+}
