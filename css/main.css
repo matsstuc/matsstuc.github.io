@@ -31,7 +31,7 @@ body {
 
 .footertext {
     line-height: 200%;
-    font-family: 'Calibri';
+    font-family: 'Open Sans Condensed';
     font-weight: thin;
 }
 
@@ -179,12 +179,11 @@ footer {
     display: flex;
     min-height: 100vh;
     flex-wrap: wrap;
-
 }
 
 .portfolio-item {
     flex-basis: calc(25% - 30px);
     height: 200px;
-    background: green;
-    margin: 15px;
+    margin: 10px;
+    border:2px solid black;
 }

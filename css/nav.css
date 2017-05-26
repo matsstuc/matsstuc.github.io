@@ -25,6 +25,17 @@ body, html {
     color: white;
 }
 
+.hero-text-port {
+    text-align: right;
+    position: absolute;
+    font-family: 'Helvetica';
+    font-weight: 'Bold';
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
 #main-navigation-wrapper * {
     box-sizing: border-box;
 }
@@ -33,8 +44,8 @@ body, html {
 }
 
 #main-navigation-wrapper-2{
-        background: #c32e2e;
-    height: 53px;
+    background: #5FAB03;
+    height: 56px;
 }
 #main-navigation {
     display:block;
