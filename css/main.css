@@ -9,6 +9,13 @@ h2 {
     color: #5FAB03;
 }
 
+h3 {
+    font-family: 'Lobster';
+    font-size: 60px;
+    font-weight: 'Bold';
+    color: white;
+}
+
 body {
 	font-family: 'Patua One';
     font-size: 16px;
@@ -17,10 +24,19 @@ body {
 	font-weight:200;
 }
 
+.greentext {
+    color: #5FAB03;
+}
+
+.footertext {
+    line-height: 200%;
+    font-family: 'Calibri';
+    font-weight: thin;
+}
 .logo {
     position: absolute;
     float: left;
-    margin-top: 20px;
+    margin-top:50px;
 }
 .indextext {
     color:white;
@@ -72,9 +88,20 @@ body {
 .wrapper2 {
     width: 100%;
     height: 600px;
-    background-color: #808285;
+    background: #808285; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#808285, #4A4B4C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#808285, #4A4B4C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#808285, #4A4B4C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#808285, #4A4B4C); /* Standard syntax */
     float: left;
 }
+
+.wrapper3 {
+     width: 900px;
+     margin: auto;
+     margin-top: 50px;
+     min-height: 300px;
+ }
 
 .home-left {
   width: 60%;
@@ -82,19 +109,29 @@ body {
 }
 
 .home-right {
-    width: 30%;
-    height: 50%;
+    width: 40%;
+    height: 100%;
+    margin-top:50px;
     float: left;
+    position: relative;
 }
 
 footer {
-  padding: 1rem;
+  padding: 5rem;
   min-height: 200px;
   float: left;
   width: 100%;
   background-color: darkgrey;
-  text-align: center;
+  text-align: left;
   background: black;
+  color: white;
+}
+
+.footerbutton {
+    font-family: 'Oswald';
+    color: white;
+    font-weight: Thin;
+    text-decoration: none;
 }
 
 
