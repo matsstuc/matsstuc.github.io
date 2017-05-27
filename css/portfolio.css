@@ -17,3 +17,23 @@
     position: relative;
     width:100%;
 }
+
+.portfolio-container {
+    width: 900px;
+    margin: 0 auto;
+    min-height: 200px;
+    background: white;
+
+}
+.portfolio-items {
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-basis: calc(25% - 30px);
+    height: 200px;
+    margin: 10px;
+    border:2px solid black;
+}
