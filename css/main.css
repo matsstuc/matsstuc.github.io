@@ -45,7 +45,8 @@ body {
 .footerlogo {
     position: absolute;
     float:left;
-    margin-left: 900px;
+    margin-left: 60%;
+    max-width:300px;
     padding:3em;
 }
 
@@ -140,12 +141,12 @@ body {
 
 .wrapper4 {
     width: 500px;
-    flex-basis: calc(25% - 30px);
     min-height: 800px;
     background: white;
     position:absolute;
+    margin-left:35%;
+    margin-top: 100px;
     z-index:2;
-    transform: translate(90%, 10%);
     padding-left: 20px;
 
 }
