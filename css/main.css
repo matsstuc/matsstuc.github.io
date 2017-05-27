@@ -101,6 +101,10 @@ body {
      padding: 5px;
  }
 
+.fa-2x {
+    color: #5FAB03;
+}
+
 .button {
     background-color: #5FAB03; 
     border: none;
