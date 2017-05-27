@@ -73,6 +73,11 @@ body {
     float:left;
 }
 
+.aboutekst {
+    margin-bottom:100px;
+    width:60%;
+}
+
 .decal {
     position: relative;
     float: right;
@@ -141,7 +146,7 @@ body {
 
 .wrapper4 {
     width: 500px;
-    min-height: 800px;
+    min-height: 1100px;
     background: white;
     position:absolute;
     margin-left:35%;
