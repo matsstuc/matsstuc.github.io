@@ -1,3 +1,48 @@
+ .contactimage {
+    width:100%;
+    position:relative;
+    z-index:2
+}
+
+.contactbackground {
+    width:100%;
+    height:400px;
+    background-color: #5FAB03;
+}
+
+.wrapper4 {
+    width: 500px;
+    min-height: 1200px;
+    background: white;
+    position:absolute;
+    margin-left:35%;
+    margin-top: 60px;
+    z-index:3;
+    padding-left: 20px;
+
+}
+
+.contactekst {
+    margin-left:10px;
+}
+
+.opmaakcontact {
+    color:#5FAB03;
+}
+
+input[type="submit"] {
+    background-color: #5FAB03;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-family:'Oswald';
+}
+
 input[type=text] {
     width: 90%;
     padding: 12px 20px;
@@ -18,3 +63,13 @@ textarea {
     font-size: 16px;
     resize: none;
 }
+
+iframe {
+     width:300px; 
+     height:300px;
+     position:absolute;
+     z-index:3;
+     margin-left: 10%;
+     margin-top: 60px;
+}
+
